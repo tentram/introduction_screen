@@ -3,15 +3,17 @@ description: Introduction/Onboarding package for flutter app with some customiza
 version: 3.1.11
 homepage: https://github.com/pyozer/introduction_screen
 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  collection: ^1.17.1
-  dots_indicator: ^2.1.2
+  collection: ^1.17.2
+  dots_indicator: ^3.0.0
   flutter_keyboard_visibility: ^5.4.1
 
 dev_dependencies:
